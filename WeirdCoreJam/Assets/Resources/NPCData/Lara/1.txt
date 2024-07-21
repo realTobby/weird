@@ -1,0 +1,51 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Tachchen! Please bring me the keys to open the Gate.",
+      "options": [],
+      "nextID": 10,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": "Task-KeysCheck0"
+    },
+    {
+      "id": 10,
+      "text": "[Check for keys]",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "Task-KeysCheck0",
+      "checkTaskOptions": [
+        {
+          "responseID": 25
+        },
+        {
+          "responseID": 30
+        }
+      ],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 30,
+      "text": "Look behind you. Go into the complex. I forgot them at home.",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": "Task-KeysCheck0"
+    },
+    {
+      "id": 25,
+      "text": "Awesome! We can enter Brutalia now!",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "FlagTrigger-IntroFence",
+      "addTask": "FlagTrigger-IntroFence"
+    }
+  ]
+}

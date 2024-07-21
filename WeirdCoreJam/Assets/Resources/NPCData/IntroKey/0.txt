@@ -1,0 +1,13 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "You found a key :)",
+      "options": [],
+      "nextID": null,
+      "checkTask": "",
+      "completeTask": "Task-KeysCheck0",
+      "addTask": ""
+    }
+  ]
+}

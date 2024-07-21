@@ -1,0 +1,334 @@
+{
+    "text": "Welcome, traveler, to the city of shadows. It's been a long time since we had a visitor.",
+    "options": [
+        {
+            "text": "What brings you here? Curiosity? Fate? Or perhaps something more sinister?",
+            "options": [
+                {
+                    "text": "Curiosity",
+                    "response": {
+                        "text": "Curiosity, you say? This place is full of secrets, hidden in every corner.",
+                        "options": [
+                            {
+                                "text": "Tell me more",
+                                "response": {
+                                    "text": "This city, with its towering structures and hidden paths, holds many secrets.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "text": "Who are you?",
+                                "response": {
+                                    "text": "Names are unimportant here. Call me the Guide. I am here to help you navigate this place.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": "Fate",
+                    "response": {
+                        "text": "Ah, fate has brought you here. Perhaps you are meant to uncover the mysteries that lie within.",
+                        "options": [
+                            {
+                                "text": "Tell me more",
+                                "response": {
+                                    "text": "This city, with its towering structures and hidden paths, holds many secrets.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "text": "Who are you?",
+                                "response": {
+                                    "text": "Names are unimportant here. Call me the Guide. I am here to help you navigate this place.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": "Something more sinister",
+                    "response": {
+                        "text": "Something more sinister? Indeed, this city has its share of darkness.",
+                        "options": [
+                            {
+                                "text": "Tell me more",
+                                "response": {
+                                    "text": "This city, with its towering structures and hidden paths, holds many secrets.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "text": "Who are you?",
+                                "response": {
+                                    "text": "Names are unimportant here. Call me the Guide. I am here to help you navigate this place.",
+                                    "options": [
+                                        {
+                                            "text": "How can I explore?",
+                                            "response": {
+                                                "text": "To explore, you must be keen and observant. There are hidden paths and secrets in every corner.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "text": "What should I look for?",
+                                            "response": {
+                                                "text": "Look for the unusual, the things that seem out of place. This city is full of surprises.",
+                                                "options": [
+                                                    {
+                                                        "text": "Where should I start?",
+                                                        "response": {
+                                                            "text": "Start at the residential blocks. There, you may find clues about the city's past.",
+                                                            "addTask": "ExploreResidentialBlocks"
+                                                        }
+                                                    },
+                                                    {
+                                                        "text": "Any advice?",
+                                                        "response": {
+                                                            "text": "Be cautious. Not everything is as it seems. Trust your instincts, and you might find what you're looking for."
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

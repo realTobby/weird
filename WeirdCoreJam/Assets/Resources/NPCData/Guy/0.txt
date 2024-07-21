@@ -1,0 +1,24 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "See. You can interact with things.",
+      "options": [],
+      "nextID": 2,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 2,
+      "text": "Up and Down arrows to move between floors.",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    }
+  ]
+}

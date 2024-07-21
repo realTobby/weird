@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ca6c7c507e0ed9ca293739a35bbede, type: 3}
+  m_Name: robot
+  m_EditorClassIdentifier: 
+  EntityName: RoboGuy
+  AnimationSprite: {fileID: 2800000, guid: 148504066f33ba2498f5ec82da6936b6, type: 3}
+  SpriteCols: 0
+  SpriteRows: 0
+  EntityMaterial: {fileID: 2100000, guid: 3853aa8bdfb37f441a4f0f9f76f07003, type: 2}
+  MAXHP: 9999

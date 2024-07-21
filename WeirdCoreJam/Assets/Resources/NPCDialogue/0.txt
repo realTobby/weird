@@ -1,0 +1,99 @@
+{
+    "dialogueNodes": [
+        {
+            "id": 1,
+            "text": "Ah, a new face in the city of shadows... how peculiar.",
+            "options": [
+                {
+                    "text": "What kind of celebration?",
+                    "responseID": 4
+                },
+                {
+                    "text": "Who are you?",
+                    "responseID": 5
+                }
+            ],
+            "nextID": null,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 2,
+            "text": "I don't remember the last time someone wandered in from the beyond.",
+            "options": [],
+            "nextID": 3,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 3,
+            "text": "You arrived just in time for... a celebration of sorts.",
+            "options": [
+                {
+                    "text": "What kind of celebration?",
+                    "responseID": 4
+                }
+            ],
+            "nextID": null,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 4,
+            "text": "A festival, perhaps? But not the kind you're used to...",
+            "options": [
+                {
+                    "text": "Can I help?",
+                    "responseID": 6
+                },
+                {
+                    "text": "What do you need?",
+                    "responseID": 7
+                }
+            ],
+            "nextID": null,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 5,
+            "text": "Names are trivial here. Call me what you wish. I'm just a guide... of sorts.",
+            "options": [
+                {
+                    "text": "Can I help?",
+                    "responseID": 6
+                },
+                {
+                    "text": "What do you need?",
+                    "responseID": 7
+                }
+            ],
+            "nextID": null,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 6,
+            "text": "The festival needs... music. Souls who can play. But they hide in the shadows.",
+            "options": [],
+            "nextID": 7,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        },
+        {
+            "id": 7,
+            "text": "Good luck, traveler. The shadows may whisper secrets to those who listen.",
+            "options": [],
+            "nextID": null,
+            "checkTask": "",
+            "completeTask": "",
+            "addTask": ""
+        }
+    ]
+}

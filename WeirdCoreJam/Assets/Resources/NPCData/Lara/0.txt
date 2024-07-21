@@ -1,0 +1,67 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Test",
+      "options": [],
+      "nextID": 2,
+      "checkTask": "",
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 2,
+      "text": "test 2",
+      "options": [],
+      "nextID": 3,
+      "checkTask": "",
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 3,
+      "text": "lol",
+      "options": [
+        {
+          "text": "yes",
+          "responseID": 4
+        },
+        {
+          "text": "no",
+          "responseID": 5
+        }
+      ],
+      "nextID": null,
+      "checkTask": "",
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 4,
+      "text": "yes yes yes",
+      "options": [],
+      "nextID": 6,
+      "checkTask": "",
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 5,
+      "text": "no no no",
+      "options": [],
+      "nextID": 6,
+      "checkTask": "",
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 6,
+      "text": "Welcome to Brutalia.",
+      "options": [],
+      "nextID": null,
+      "checkTask": "",
+      "completeTask": "FlagTrigger-IntroFence",
+      "addTask": "FlagTrigger-IntroFence"
+    }
+  ]
+}

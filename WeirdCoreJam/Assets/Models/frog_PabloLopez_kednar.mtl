@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'frog_PabloLopez_kednar.blend'
+# www.blender.org
+
+newmtl SKIN
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.106061 0.106061 0.106061
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

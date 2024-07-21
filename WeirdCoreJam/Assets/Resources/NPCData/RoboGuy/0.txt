@@ -1,0 +1,53 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Are you looking for a key?",
+      "options": [
+        {
+          "text": "Yea",
+          "responseID": 10
+        },
+        {
+          "text": "No",
+          "responseID": 20
+        }
+      ],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 10,
+      "text": "Go higher. It might be there.",
+      "options": [],
+      "nextID": 50,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 20,
+      "text": "Then definetly dont look above where they key may be",
+      "options": [],
+      "nextID": 50,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 50,
+      "text": "Seen the view? If you see them, they see you. Dont worry about it.",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    }
+  ]
+}
