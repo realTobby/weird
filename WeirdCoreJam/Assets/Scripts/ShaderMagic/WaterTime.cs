@@ -8,10 +8,17 @@ public class WaterTime : MonoBehaviour
     [Range(2, 256)]
     public int resolution = 10; // Slider in the inspector to control vertex density
 
+    public bool createMeshOnStart = true; // Toggle in Inspector to enable or disable mesh creation
+
     void Start()
     {
         waterMaterial = GetComponent<Renderer>().material;
-        CreateMesh();
+
+        // Check the toggle for mesh creation
+        if (createMeshOnStart)
+        {
+            CreateMesh();
+        }
     }
 
     void Update()
@@ -24,7 +31,7 @@ public class WaterTime : MonoBehaviour
     {
         MeshFilter meshFilter = GetComponent<MeshFilter>();
         Mesh originalMesh = meshFilter.sharedMesh;
-        
+
         if (originalMesh == null)
         {
             Debug.LogError("No mesh found on the MeshFilter component.");

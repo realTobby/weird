@@ -7,7 +7,7 @@
       "nextID": null,
       "checkTask": "",
       "completeTask": "Task-KeysCheck0",
-      "addTask": ""
+      "addTask": "Task-KeysCheck0"
     }
   ]
 }

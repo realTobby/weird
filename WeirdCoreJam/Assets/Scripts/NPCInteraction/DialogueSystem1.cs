@@ -24,8 +24,10 @@ public class DialogueSystem : MonoBehaviour
     private Coroutine dialogueCoroutine;
     private Transform cacheLastNPCTransform;
     private DialogueNode currentNode;
-    
-    
+
+
+    public AudioSource typingSFX;
+
     private GameObject speechBubbleGO;
 
     private void Awake()
@@ -161,6 +163,13 @@ public class DialogueSystem : MonoBehaviour
         foreach (char letter in text)
         {
             dialogueText.text += letter;
+
+            if(letter !=  ' ')
+            {
+                typingSFX.Play();
+            }
+
+            
             yield return new WaitForSeconds(typingSpeed);
         }
         yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
