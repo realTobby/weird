@@ -1,0 +1,53 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Do you know extra?",
+      "options": [
+        {
+          "text": "Yup",
+          "responseID": 10
+        },
+        {
+          "text": "Nope",
+          "responseID": 20
+        }
+      ],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 10,
+      "text": "Isnt it just cool? Probably rose tinted glasses, am i right?",
+      "options": [],
+      "nextID": 30,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 20,
+      "text": "Dont worry. This one is closed aswell. They stopped existing.",
+      "options": [],
+      "nextID": 30,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 30,
+      "text": "This one is next to be stomped to the ground to create more room for parking spots.",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    }
+  ]
+}

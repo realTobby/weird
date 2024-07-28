@@ -1,0 +1,73 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Any questions?",
+      "options": [
+        {
+          "text": "No",
+          "responseID": 50
+        },
+        {
+          "text": "Maybe?",
+          "responseID": 10
+        }
+      ],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 10,
+      "text": "See the City from a local view. Visit different Locations and explore.",
+      "options": [],
+      "nextID": 12,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 50,
+      "text": "Great!",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 12,
+      "text": "There are 3 sections.\nGround. Middle. And Upper. We are at the Upper Section.\n",
+      "options": [],
+      "nextID": 15,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 15,
+      "text": "On the middle section is a Tunnel. Near the extra.",
+      "options": [],
+      "nextID": 20,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 20,
+      "text": "Or at the ground level. There you can go deeper into the city.",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    }
+  ]
+}
