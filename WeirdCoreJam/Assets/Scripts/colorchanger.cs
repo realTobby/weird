@@ -21,6 +21,16 @@ public class ColorChanger : MonoBehaviour
 
     void Start()
     {
+        InitLight();
+    }
+
+    private void OnEnable()
+    {
+        InitLight();
+    }
+
+    private void InitLight()
+    {
         // Check if the light component is assigned
         if (lightComponent == null)
         {
@@ -61,6 +71,7 @@ public class ColorChanger : MonoBehaviour
         // Start a coroutine for continuous rotation
         StartCoroutine(RotateObjectContinuously());
     }
+
 
     // Coroutine to handle smooth color transition
     private IEnumerator SmoothColorTransitionRoutine()

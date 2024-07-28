@@ -1,0 +1,53 @@
+{
+  "dialogueNodes": [
+    {
+      "id": 1,
+      "text": "Ribbit...",
+      "options": [],
+      "nextID": 2,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 2,
+      "text": "",
+      "options": [
+        {
+          "text": "Ribbit?",
+          "responseID": 10
+        },
+        {
+          "text": "ribbit...",
+          "responseID": 20
+        }
+      ],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 10,
+      "text": "Ribbit Ribbit",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    },
+    {
+      "id": 20,
+      "text": "ribbit ribbit",
+      "options": [],
+      "nextID": null,
+      "checkTaskName": "",
+      "checkTaskOptions": [],
+      "completeTask": "",
+      "addTask": ""
+    }
+  ]
+}
